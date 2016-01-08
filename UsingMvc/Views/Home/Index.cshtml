@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home page";
+}
+@model UsingMvc.Models.SearchClass
+<h2 class="col-sm-12">Index</h2>
+<div class="col-sm-6">
+   <div class="input-group">
+        <div class="input-group-addon">
+            <i class="glyphicon glyphicon-arrow-right"></i>
+        </div>
+        @Html.ActionLink("search", "Find", "Home",null, new {@class = "btn btn-lg btn-primary"})
+    </div>
+    
+</div>

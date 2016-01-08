@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingApi", "UsingApi\UsingApi.csproj", "{0DB27AC6-ABE2-4AA7-9341-9EC439921917}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UsingAngular", "UsingAngular\", "{A6F42F43-5CE2-4D77-AAC2-315C66A73B4D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/UsingAngular"
+		Debug.AspNetCompiler.PhysicalPath = "UsingAngular\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\UsingAngular\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/UsingAngular"
+		Release.AspNetCompiler.PhysicalPath = "UsingAngular\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\UsingAngular\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2670"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingMvc", "UsingMvc\UsingMvc.csproj", "{54DFD0CC-C49F-48FA-911B-689CD89BF271}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9591AB9D-DB5C-49BA-A05A-AA9C3936C089}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DB27AC6-ABE2-4AA7-9341-9EC439921917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB27AC6-ABE2-4AA7-9341-9EC439921917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB27AC6-ABE2-4AA7-9341-9EC439921917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB27AC6-ABE2-4AA7-9341-9EC439921917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6F42F43-5CE2-4D77-AAC2-315C66A73B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F42F43-5CE2-4D77-AAC2-315C66A73B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F42F43-5CE2-4D77-AAC2-315C66A73B4D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F42F43-5CE2-4D77-AAC2-315C66A73B4D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{54DFD0CC-C49F-48FA-911B-689CD89BF271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54DFD0CC-C49F-48FA-911B-689CD89BF271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54DFD0CC-C49F-48FA-911B-689CD89BF271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54DFD0CC-C49F-48FA-911B-689CD89BF271}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

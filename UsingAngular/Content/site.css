@@ -1,0 +1,82 @@
+body {
+    font-family: Calibri,sans-serif;
+    font-size: 18px;
+    background-image: url('../Images/a.png');
+    background-position:bottom left;
+    background-size:50px;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.message {
+    color:#77216F;
+    font-weight:bold;
+    padding:10px;
+   
+}
+.warm-grey {
+    color:#AEA79F;
+    font-weight:bold;
+    cursor:pointer;
+}
+.warm-grey:hover {
+    color: #222;
+}
+
+.footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    text-align: right;
+    padding:10px;
+    font-weight:600;
+    font-style: italic;
+    font-family: Calibri,sans-serif;
+    font-size: 20px;
+}
+.footer span{
+    font-style:normal;
+    color:#772953;
+    cursor: not-allowed;
+}
+
+
+
+.margin-top{
+    margin-top:10px;
+}
+.margin-bottom{
+    margin-bottom: 10px;
+}
+
+.default-font-style{
+    font-family:Calibri,sans-serif;
+    font-size:16px;
+}
+
+/* background-colors {{ Inspired by Ubuntu }}
+------------------*/
+.back-aubergine {
+    background-color: #77216F;
+    color: #fff;
+    border: #77216F;
+}
+.back-orange{
+    background-color: #E36C43;
+    border:#E36C43;
+    color:#fff;
+}
+
+/* Box-shadow
+------------*/
+.box:hover{
+    box-shadow: 0 0 2px 2px #77216F;
+}
+.box1111{
+    box-shadow: 1px 1px 1px 1px #444;
+}
+.box0111{
+    box-shadow: 0 1px 1px 1px #444;
+}
+.box0011{
+    box-shadow: 0 0 1px 1px #444;
+}

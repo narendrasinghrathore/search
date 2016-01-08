@@ -1,0 +1,20 @@
+﻿<div data-ng-controller="searchCtrl" class="container col-lg-6">
+    <h1><span class="glyphicon glyphicon-grain"></span>{{title}}</h1>
+    <div class="searchDiv input-group margin-bottom margin-top ">
+        <div class="input-group-addon back-aubergine">
+            <i class="glyphicon glyphicon-search"></i>
+        </div>
+        <input type="text" class="txt form-control default-font-style" data-ng-model="term" id="searchTxt">
+    </div>
+    <button id="btnSearch" class="btn back-orange box box0011 default-font-style" data-ng-click="validate();">Search</button>
+    <div>
+        <p class="message"><span data-ng-class="mClass"></span> {{m}}</p>
+       
+        <div>
+            <div data-ng-repeat="d in data">
+                <span class="warm-grey"><i class="glyphicon glyphicon-chevron-right"></i> {{d}}</span>
+            </div>
+        </div>
+
+    </div>
+</div>
